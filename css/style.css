@@ -1,0 +1,166 @@
+@font-face
+{
+font-family:ViceCitySans;
+src: url(../fuentes/Vice_City_Sans/ViceCitySans.otf)
+}
+
+body {
+    background-image: url(../Imagenes/rayo.png);
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
+    background-size: 60%;
+    
+}
+
+header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 30px 0px 30px;
+        border-bottom: 4px solid #e1003d;
+
+}
+
+header .carabowie{
+
+    padding: 0%;
+
+}
+
+.linea{
+    
+    height: 4px;
+    background-color: #005695;
+    margin: 0% 2% 0% 2%;
+}
+
+.logo {
+        margin-top: 70px;
+
+}
+
+.info {
+            display: flex;
+            flex-direction: row;
+           justify-content: space-between;  
+         
+
+}
+
+
+.info .parrafo {
+                display: flex;
+                
+}
+
+.info .parrafo .texto {
+    display: flex;
+    font-size: 40px;
+    font-size: calc(1em + 1vw);
+    font-family: ViceCitySans;
+  
+    
+}
+
+.info .logo{
+    display: flex;
+    
+
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+
+
+.firma {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    font-family: ViceCitySans;
+
+}
+
+.imagenfirma {
+
+    width: 100%;
+    height: auto;
+   
+
+}
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+
+    body{
+        background-size: 85%;
+    }   
+
+.carabowie img {
+
+    width: 200px;
+    height: 200px;
+
+
+}
+	
+.logo img{
+
+    width: 200px;
+    height: auto;
+}
+
+.imagenfirma {
+
+    width: 75%;
+    height: auto;
+   
+
+}
+
+}
+	
+@media only screen and (max-width: 670px) {
+
+	body{
+        background-size: 100%;
+    }
+	
+}
+
+/* Responsive Celulares */
+	
+	@media only screen and (max-width: 480px) {
+
+        .carabowie img {
+
+            width: 150px;
+            height: 150px;
+        
+        
+        }
+            
+        .logo img{
+        
+            width: 130px;
+            height: auto;
+        }
+        
+        .imagenfirma {
+        
+            width: 70%;
+            height: auto;
+           
+        
+        }
+	
+}
